@@ -57,6 +57,7 @@ enum class Functional {
   PBE,
   revPBE,
   PBE0,
+	EPC17
 };
 
 extern BidirectionalMap<std::string, Functional> functional_map;
