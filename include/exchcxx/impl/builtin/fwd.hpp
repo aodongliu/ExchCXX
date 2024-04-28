@@ -92,6 +92,7 @@ struct BuiltinEPC17_1;
 struct BuiltinEPC17_2;
 struct BuiltinEPC18_1;
 struct BuiltinEPC18_2;
+struct BuiltinEPC19;
 
 template <typename KernelType>
 struct kernel_traits;

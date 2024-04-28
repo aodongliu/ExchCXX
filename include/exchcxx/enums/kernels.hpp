@@ -108,6 +108,8 @@ enum class Kernel {
   EPC17_2,
   EPC18_1,
   EPC18_2,
+  // NEO GGA Functional
+  EPC19
 };
 
 extern BidirectionalMap<std::string, Kernel> kernel_map;

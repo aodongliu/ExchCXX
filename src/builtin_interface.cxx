@@ -125,6 +125,8 @@ std::unique_ptr<BuiltinKernel>
     return std::make_unique<BuiltinEPC18_1>( polar );
   else if( kern == Kernel::EPC18_2)
     return std::make_unique<BuiltinEPC18_2>( polar );
+  else if( kern == Kernel::EPC19)
+    return std::make_unique<BuiltinEPC19>( polar );
 
   else
     throw std::runtime_error("Specified kernel does not have a builtin implementation");

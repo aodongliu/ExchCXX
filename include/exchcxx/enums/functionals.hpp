@@ -64,6 +64,7 @@ enum class Functional {
   EPC17_2,
   EPC18_1,
   EPC18_2,
+  EPC19,
 };
 
 extern BidirectionalMap<std::string, Functional> functional_map;

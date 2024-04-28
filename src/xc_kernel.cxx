@@ -79,7 +79,8 @@ BidirectionalMap<std::string, Kernel> kernel_map{
      {"EPC17_1", Kernel::EPC17_1},
      {"EPC17_2", Kernel::EPC17_2},
      {"EPC18_1", Kernel::EPC18_1},
-     {"EPC18_2", Kernel::EPC18_2}}};
+     {"EPC18_2", Kernel::EPC18_2},
+     {"EPC19", Kernel::EPC19}}};
 
 std::ostream& operator<<( std::ostream& out, Kernel kern ) {
   out << kernel_map.key(kern);
